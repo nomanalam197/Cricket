@@ -1,0 +1,1 @@
+gsap.from('#column', {duration:1, y: '120%', ease:'elastic', delay:2.3})

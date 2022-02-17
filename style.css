@@ -1,0 +1,552 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.mid-day.com/images/images/2021/nov/Rohit-Rahul-a_d.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+@media (max-width: 500px) {
+  #whitenav{
+      height: 500px;
+  }
+}
+
+#whitenav{
+    height: 10%;
+    width: 70%;
+    position: absolute;
+    bottom: 8%;
+    left: 15%;
+    background-color: white;
+    border-radius: 70px;
+    
+    animation: j 3s cubic-bezier(0.19, 1, 0.22, 1) 1 both;
+}
+@keyframes j {
+    0%{
+        bottom: -10%;
+    }
+    
+    100%{
+        bottom: 8%;
+    }
+}
+#left{
+    height: 100%;
+    width: 326px;
+    
+    left: 3.4%;
+    position: absolute;
+    animation: identifier 3s cubic-bezier(0.19, 1, 0.22, 1) 2s 1 both;
+}
+@keyframes identifier {
+    0%{
+        left: -60%;
+    }
+    100%{
+        left: 3.4%;
+    }
+}
+#r #RAHUL {
+    margin-top: 14px;
+    font-weight: 600;
+}
+#r #RO{
+    font-weight: 600;
+}
+#zero{
+    position: absolute;
+    right: 0;
+    margin-top: -15%;
+    font-weight: 100;
+}
+#mid{
+    height: 80%;
+    width: 300px;
+    
+    position: absolute;
+    right: 36%;
+    margin-top: 7.5px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+.top{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(17, 104, 235);
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: t 3s cubic-bezier(0.19, 1, 0.22, 1) 2s 1 both;
+    position: absolute;
+}
+@keyframes t{
+    0%{
+        top:-60% ;
+    }
+    100%{
+        top: 0%;
+    }
+}
+
+.top span{
+    padding: 6px;                                                                                                                                                                               
+}
+.btm{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(15, 15, 61);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    animation: f 3s cubic-bezier(0.19, 1, 0.22, 1) 2s 1 both;
+}
+@keyframes f{
+    0%{
+        bottom: -60% ;
+    }
+    100%{
+        bottom: 0%;
+    }
+}
+#right{
+    height: 100%;
+    width: 326px;
+    
+    right: 3.4%;
+    position: absolute;
+   
+    animation: s 3s cubic-bezier(0.19, 1, 0.22, 1) 2s 1 both;
+}
+@keyframes s {
+    0%{
+    right: -60%;
+    }
+    100%{
+    right: 3.4%;   
+    } 
+}
+.right-top{
+    width: 100%;
+    height: 50%;
+   
+}
+.right-btm{
+    width: 100%;
+    height: 50%;
+   
+}
+.right-btm{
+    display: flex;
+    padding-top: 3px;
+}
+.circle{
+    border: 2px solid blue;
+    border: 30%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5PX;
+    margin-bottom: 20PX;
+    
+}
+.right-top span{
+    padding-left: 60%;
+}
+.right-top{
+    padding-top: 12px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+}
+#main a{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-decoration: none;
+    color: gray;
+}
+#main #ro{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    font-weight: 100;
+    text-decoration: none;
+    color: gray;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.mid-day.com/images/images/2021/nov/Rohit-Rahul-a_d.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#whitenav{
+    height: 11%;
+    width: 75%;
+    position: absolute;
+    overflow: hidden;
+    bottom: 8%;
+    left: 15%;
+    background-color: white;
+    border-radius: 70px;
+    animation: white-nav 4s 1s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    
+}
+@keyframes white-nav{
+    0%{
+        bottom: -15%;
+    }
+    100%{
+        bottom: 8%;
+    }
+}
+
+
+#left{
+    height: 100%;
+    width: 300px;
+    left: 2.9%;
+    position: absolute;
+    animation: white-nav-left 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    font-weight: 100;
+}
+
+@keyframes white-nav-left{
+    0%{
+        left: -50%;
+    }
+    100%{
+        left: 2.9%;
+    }
+}
+
+
+#right{
+    
+    height: 100%;
+    width: 300px;
+    animation: white-nav-right 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    right: 2.9%;
+    position: absolute;
+}
+
+@keyframes white-nav-right{
+    0%{
+        right: -50%;
+    }
+    100%{
+        right: 2.9%;
+    }
+}
+
+#mid{
+    position: relative;
+    height: 90%;
+    width: 300px;
+    right: 35%;
+    position: absolute;
+    border-radius: 70px;   
+    margin-top: 3px;
+     
+}
+.top{
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(21, 17, 235);
+    border-radius: 30px 30px 0px 0px;
+}
+.btm{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(15, 15, 61);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50%;
+    color: white;
+    animation: btm 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+}
+
+
+@keyframes btm{
+    0%{
+        bottom: -60%;
+    }
+    
+    100%{
+        bottom: 0;
+    }
+}
+
+#r{
+    margin-top: 14px;
+    font-weight: 100;
+}
+#zero{
+    position: absolute;
+    right: 5px;
+    margin-top: -16%;
+    font-weight: 100;
+}
+#zero h3{
+    font-weight: 600;
+}
+#r h3{
+    font-weight: 500;
+}
+.right-top{
+    width: 100%;
+    height: 50%;
+   
+}
+.right-btm{
+    width: 100%;
+    height: 50%;
+   
+}
+.right-btm{
+    display: flex;
+    padding-top: px;
+}
+.circle{
+    border: 2px solid blue;
+    border: 30%;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    
+}
+.right-top span{
+    padding-left: 60%;
+}
+.right-top{
+    padding-top: 8px;
+}
+.top{
+    
+    height: 50%;
+    width: 100%;
+    background-color: rgb(17, 104, 235);
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: top 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+}
+
+@keyframes top{
+    0%{
+        top: -60%;
+    }
+    
+    100%{
+        top: 0;
+    }
+}
+
+.top span{
+    padding: 6px;
+}
+
+#main a{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+}
+/* @media only screen and (max-width: 500px) {
+   #whitenav{
+       height: 20vw;
+       left: 13vw;
+       width: 95vw;
+       left: 2.5vw;
+       
+       
+   }
+   #left{
+       width: 30vw;
+       font-size: 15px;
+   }
+   #r h3{
+        line-height: 2vh;
+        padding-top: 0.85vh;
+   }
+   #zero{
+       top: 4.5vh;
+   }
+   #mid{
+       width: 30vw;
+   }
+   #right{
+       width: 30vw;
+       margin-top: 0.2vh;
+   }
+   .right-top {
+        padding-top: 4.5vw;
+        padding-left: 1vw;
+   }
+   #right .right-btm .circle{
+    width: 10vw;
+     height: 2vh;
+      
+     
+    }
+   .right-top span{
+       padding-left: 7%;
+   }
+   .top h4{
+       padding-left: 1vh;
+       
+   }
+   .btm{
+       font-size: 1.3vh;
+       padding-left: 1vh;
+
+   }
+   .btm span{
+       
+       margin-left: 1.5vw;
+       
+   }
+} */
+@media only screen and (max-width: 500px) {
+    #whitenav{
+        height: 30vw;
+        width: 100vw;   
+        animation: none;
+     
+        left: 0vw;
+    }
+    /* @keyframes btm{
+        0%{
+            bottom: -230%;
+        }
+        
+        100%{
+            bottom: 0;
+        } */
+    #left{
+        top: 30%;
+        width: 30vw;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    #r h3 {
+        line-height: 3vh;
+    }
+    #zero{
+      top: 4vh;
+    }
+    #right{
+        top: 30%;
+        width: 30vw;
+        height: 40%;
+        padding-right: 20px;
+    }
+    #right .right-top span{
+        padding-left: 7%;
+    }
+    #right .right-top{
+       padding-bottom: 25px;
+    }
+    #right .right-btm .circle{
+        width: 19px; height: 23px; border-radius: 50%; margin-left: 2px;
+    }
+    #right{
+        font-size: 15px;
+        margin-top: 8px;
+    }
+    #mid{
+        position: absolute;
+        width: 50vw;
+        font-size: 12px;
+        height: 35%;
+        padding-bottom: 20px;
+        right: 25%;
+    }
+
+}
+
+
+
+
+
+.main2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    overflow: hidden;
+}
+.move{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50% 0 50% 0;
+    background-color: rgb(34, 168, 209);
+    animation: move 2s ease infinite both;
+    
+}
+@keyframes move{
+    0%{
+        transform: rotate(90deg);
+        height: 5%;
+        top: 10%;
+        left: 0;
+        opacity: 0;
+    }
+    50%{
+        top: 5%;
+        height: 10%;
+        left: 40%;
+        opacity: 2;
+    }
+    75%{
+        top: 20%;
+        left: 40%;
+        height: 60%;
+        transform: rotateY(180deg);
+        width: 300px;
+        opacity: 2;
+    }
+   
+    100%{
+        top: 30%;
+        left: 100%;
+        transform: scale(2);
+        opacity: 0;
+    }
+}
